@@ -18,6 +18,14 @@ python src/train.py
 python src/evaluate.py
 ```
 
+## Pretrained weights
+
+The trained checkpoint is attached to the [v1.0 release](https://github.com/HessamKaveh/semantic-segmentation-fcn/releases/tag/v1.0) (not stored in git):
+
+```bash
+wget -P results https://github.com/HessamKaveh/semantic-segmentation-fcn/releases/download/v1.0/best_fcn.pt   # 65 MB
+```
+
 ## Results
 
 | Metric | Value |
