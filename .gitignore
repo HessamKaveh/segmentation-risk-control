@@ -4,3 +4,6 @@ data/
 venv/
 .env
 *.pt
+# model checkpoints (kept out of git; reproduce with src/train.py)
+*.pt
+*.pth
