@@ -4,7 +4,7 @@ import torchvision.models as models
 
 
 class SimpleFCN(nn.Module):
-    """Fully Convolutional Network ساده برای Semantic Segmentation"""
+    """Simple fully convolutional network for semantic segmentation"""
     def __init__(self, num_classes=21):
         super().__init__()
         
@@ -16,7 +16,7 @@ class SimpleFCN(nn.Module):
         for param in self.features.parameters():
             param.requires_grad = False
         
-        # Classifier (جایگزین FC layers)
+        # classifier (replaces the FC layers)
         self.classifier = nn.Sequential(
             nn.Conv2d(512, 256, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
