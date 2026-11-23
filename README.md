@@ -1,6 +1,6 @@
 # Can a segmentation mask come with a guarantee?
 
-[![CI](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24465851.svg)](https://doi.org/10.5281/zenodo.24465851)
 
 ### Risk-controlled segmentation masks for robots, and what happens when the camera degrades
 
@@ -198,7 +198,8 @@ If you use this code, please cite it (metadata in [`CITATION.cff`](CITATION.cff)
   author  = {Kaveh, Hessam},
   title   = {Can a segmentation mask come with a guarantee?},
   year    = {2026},
-  version = {1.0.0},
+  version = {1.1.0},
+  doi     = {10.5281/zenodo.24465851},
   url     = {https://github.com/HessamKaveh/segmentation-risk-control},
   license = {MIT}
 }
