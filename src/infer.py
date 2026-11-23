@@ -29,7 +29,6 @@ CONDITIONS = ["voc:clean:0"] + [f"voc:{c}:{s}" for c in corruptions.CORRUPTIONS 
 
 @torch.no_grad()
 def run(model, ds, dev):
-    B = len(EDGES) - 1
     out = {k: [] for k in ["img", "cls", "n_gt", "n_boundary", "h_int", "h_bnd", "h_neg", "argmax_hit"]}
     conf = np.zeros((21, 21), np.int64)
     for x, lab, i in DataLoader(ds, batch_size=1, num_workers=8):

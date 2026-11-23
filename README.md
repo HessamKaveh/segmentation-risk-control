@@ -1,5 +1,7 @@
 # Can a segmentation mask come with a guarantee?
 
+[![CI](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml/badge.svg)](https://github.com/HessamKaveh/segmentation-risk-control/actions/workflows/ci.yml) ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ### Risk-controlled segmentation masks for robots, and what happens when the camera degrades
 
 A robot that grasps, avoids or hands over an object needs to know **where the whole object is**. A segmentation mask
@@ -186,6 +188,21 @@ pet-segmentation project is superseded by this one.
 * Everingham et al. *The PASCAL Visual Object Classes Challenge.* IJCV 2010. Hariharan et al. *Semantic Contours from Inverse Detectors* (SBD). ICCV 2011.
 * Parkhi, Vedaldi, Zisserman, Jawahar. *Cats and Dogs* (Oxford-IIIT Pet). CVPR 2012.
 * Hendrycks, Dietterich. *Benchmarking Neural Network Robustness to Common Corruptions and Perturbations.* ICLR 2019.
+
+## Citation
+
+If you use this code, please cite it (metadata in [`CITATION.cff`](CITATION.cff)):
+
+```bibtex
+@software{kaveh2026_segmentation_risk_control,
+  author  = {Kaveh, Hessam},
+  title   = {Can a segmentation mask come with a guarantee?},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/HessamKaveh/segmentation-risk-control},
+  license = {MIT}
+}
+```
 
 ---
 
